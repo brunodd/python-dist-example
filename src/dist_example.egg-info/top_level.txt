@@ -1,2 +1,0 @@
-dist_example
-tests

@@ -22,7 +22,6 @@ setuptools.setup(
     ],
     install_requires=[
     ],
-    package_dir={"": "src"},
-    packages=setuptools.find_packages(where="src"),
+    packages=setuptools.find_packages(where="."),
     python_requires=">=3.7",
 )
