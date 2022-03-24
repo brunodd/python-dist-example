@@ -10,7 +10,7 @@ python setup.py bdist_wheel
 Install wheel
 ```bash
 export PATH_TO_WHEEL=$(pwd)/dist/dist_example-0.0.3-py3-none-any.whl
-pip install PATH_TO_WHEEL
+pip install $PATH_TO_WHEEL
 ```
 
 Use package
